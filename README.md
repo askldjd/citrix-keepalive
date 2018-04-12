@@ -11,6 +11,10 @@ The script is tested under
  - Arch Linux
  - NodeJS 9
 
+Things to install
+ - NodeJS
+ - xdotool
+
 To run
 
 ```
