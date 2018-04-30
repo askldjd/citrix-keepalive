@@ -19,8 +19,8 @@ const eventDebug = require('debug')('event');
 const configDebug = require('debug')('config');
 const error = require('debug')('error');
 
-const keyboardBuffer = new Buffer(24);
-const mouseBuffer = new Buffer(3);
+const keyboardBuffer = new Buffer.alloc(24);
+const mouseBuffer = new Buffer.alloc(3);
 let keyboardFd, mouseFd;
 let lastKeyTime = 0;
 
